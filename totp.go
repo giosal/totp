@@ -4,7 +4,7 @@ package totp
 const (
 	DefaultT0         = "1970-01-01T00:00:00Z"
 	DefaultX          = 30
-	DefaultCodeDigits = 8
+	DefaultCodeDigits = 10
 
 	CryptoSHA1   = "HMACSHA1"
 	CryptoSHA256 = "HMACSHA256"
